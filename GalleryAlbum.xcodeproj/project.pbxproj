@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8803D08525E8B73F007CAE09 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803D08425E8B73F007CAE09 /* MainViewController.swift */; };
+		8803D08C25E8B802007CAE09 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803D08B25E8B802007CAE09 /* Extension.swift */; };
 		884DEAAA25E8B65D006D5892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884DEAA925E8B65D006D5892 /* AppDelegate.swift */; };
-		884DEAAC25E8B65D006D5892 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884DEAAB25E8B65D006D5892 /* SceneDelegate.swift */; };
-		884DEAAE25E8B65D006D5892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884DEAAD25E8B65D006D5892 /* ViewController.swift */; };
-		884DEAB125E8B65D006D5892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884DEAAF25E8B65D006D5892 /* Main.storyboard */; };
 		884DEAB325E8B65E006D5892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884DEAB225E8B65E006D5892 /* Assets.xcassets */; };
 		884DEAB625E8B65E006D5892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884DEAB425E8B65E006D5892 /* LaunchScreen.storyboard */; };
+		E92C3F85E283C1164FA3A503 /* Pods_GalleryAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589B5DA058BC61FCD1911758 /* Pods_GalleryAlbum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F8D16517A4C9EFC1FEED22 /* Pods-GalleryAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalleryAlbum.release.xcconfig"; path = "Target Support Files/Pods-GalleryAlbum/Pods-GalleryAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		589B5DA058BC61FCD1911758 /* Pods_GalleryAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalleryAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8803D08425E8B73F007CAE09 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8803D08B25E8B802007CAE09 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		884DEAA625E8B65D006D5892 /* GalleryAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884DEAA925E8B65D006D5892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		884DEAAB25E8B65D006D5892 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		884DEAAD25E8B65D006D5892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		884DEAB025E8B65D006D5892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884DEAB225E8B65E006D5892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884DEAB525E8B65E006D5892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884DEAB725E8B65E006D5892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FED8B3BE4CA53162AAE934 /* Pods-GalleryAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalleryAlbum.debug.xcconfig"; path = "Target Support Files/Pods-GalleryAlbum/Pods-GalleryAlbum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92C3F85E283C1164FA3A503 /* Pods_GalleryAlbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC8E10E03FC0E55AD4465E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5FED8B3BE4CA53162AAE934 /* Pods-GalleryAlbum.debug.xcconfig */,
+				19F8D16517A4C9EFC1FEED22 /* Pods-GalleryAlbum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8803D07F25E8B6E7007CAE09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884DEAA925E8B65D006D5892 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8803D08025E8B6F5007CAE09 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8803D08325E8B72C007CAE09 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8803D08125E8B6FD007CAE09 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8803D08A25E8B7E3007CAE09 /* Extension */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8803D08225E8B70A007CAE09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				884DEAB225E8B65E006D5892 /* Assets.xcassets */,
+				884DEAB425E8B65E006D5892 /* LaunchScreen.storyboard */,
+				884DEAB725E8B65E006D5892 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8803D08325E8B72C007CAE09 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8803D08425E8B73F007CAE09 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8803D08A25E8B7E3007CAE09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8803D08B25E8B802007CAE09 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		884DEA9D25E8B65D006D5892 = {
 			isa = PBXGroup;
 			children = (
 				884DEAA825E8B65D006D5892 /* GalleryAlbum */,
 				884DEAA725E8B65D006D5892 /* Products */,
+				0AC8E10E03FC0E55AD4465E2 /* Pods */,
+				A9D677A828EEFED20FE4E73F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,20 @@
 		884DEAA825E8B65D006D5892 /* GalleryAlbum */ = {
 			isa = PBXGroup;
 			children = (
-				884DEAA925E8B65D006D5892 /* AppDelegate.swift */,
-				884DEAAB25E8B65D006D5892 /* SceneDelegate.swift */,
-				884DEAAD25E8B65D006D5892 /* ViewController.swift */,
-				884DEAAF25E8B65D006D5892 /* Main.storyboard */,
-				884DEAB225E8B65E006D5892 /* Assets.xcassets */,
-				884DEAB425E8B65E006D5892 /* LaunchScreen.storyboard */,
-				884DEAB725E8B65E006D5892 /* Info.plist */,
+				8803D07F25E8B6E7007CAE09 /* Supporting Files */,
+				8803D08025E8B6F5007CAE09 /* Modules */,
+				8803D08125E8B6FD007CAE09 /* Services */,
+				8803D08225E8B70A007CAE09 /* Resources */,
 			);
 			path = GalleryAlbum;
+			sourceTree = "<group>";
+		};
+		A9D677A828EEFED20FE4E73F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				589B5DA058BC61FCD1911758 /* Pods_GalleryAlbum.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 884DEABA25E8B65E006D5892 /* Build configuration list for PBXNativeTarget "GalleryAlbum" */;
 			buildPhases = (
+				DEEF44F10908A542B3F1E7DC /* [CP] Check Pods Manifest.lock */,
 				884DEAA225E8B65D006D5892 /* Sources */,
 				884DEAA325E8B65D006D5892 /* Frameworks */,
 				884DEAA425E8B65D006D5892 /* Resources */,
+				6E72022131E26688DF641DDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +197,67 @@
 			files = (
 				884DEAB625E8B65E006D5892 /* LaunchScreen.storyboard in Resources */,
 				884DEAB325E8B65E006D5892 /* Assets.xcassets in Resources */,
-				884DEAB125E8B65D006D5892 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E72022131E26688DF641DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GalleryAlbum/Pods-GalleryAlbum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GalleryAlbum/Pods-GalleryAlbum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GalleryAlbum/Pods-GalleryAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEF44F10908A542B3F1E7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GalleryAlbum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		884DEAA225E8B65D006D5892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884DEAAE25E8B65D006D5892 /* ViewController.swift in Sources */,
+				8803D08C25E8B802007CAE09 /* Extension.swift in Sources */,
 				884DEAAA25E8B65D006D5892 /* AppDelegate.swift in Sources */,
-				884DEAAC25E8B65D006D5892 /* SceneDelegate.swift in Sources */,
+				8803D08525E8B73F007CAE09 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		884DEAAF25E8B65D006D5892 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				884DEAB025E8B65D006D5892 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		884DEAB425E8B65E006D5892 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,11 +387,12 @@
 		};
 		884DEABB25E8B65E006D5892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FED8B3BE4CA53162AAE934 /* Pods-GalleryAlbum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GalleryAlbum/Info.plist;
+				INFOPLIST_FILE = GalleryAlbum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +400,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tuigynbekov.GalleryAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		884DEABC25E8B65E006D5892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F8D16517A4C9EFC1FEED22 /* Pods-GalleryAlbum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GalleryAlbum/Info.plist;
+				INFOPLIST_FILE = GalleryAlbum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +419,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tuigynbekov.GalleryAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
