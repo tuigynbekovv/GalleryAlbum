@@ -5,11 +5,6 @@ Gallery Album with CollectionView components.
 
 2) cd GalleryAlbum/
 
-3) git branch -a
-
-4) git checkout develop
-
-5) git pull origin develop
-
+3) pod install
 
 enjoy bro ! ! !
